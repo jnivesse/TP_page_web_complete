@@ -1,0 +1,51 @@
+body{
+background-image: radial-gradient(circle at center,#CCDAE0 0,#EDF2F4);
+}
+
+header{
+text-align: center; 
+}
+
+h1{
+    color:#EF233C;
+    font-weight: bold;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+h3{
+    color: #EF233C;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline dotted;
+}
+ 
+article{
+    border: 1px solid black;
+}
+footer{
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    color: #D90429;
+}
+li:visited{
+    color: grey;
+}
+li:hover{
+    color: #2B2D42;
+}
+/* en travaux */
+:required::after{
+     content: " * ";
+     color:#EF233C
+
+}
+
+:required{
+    border: 1px solid #EF233C;
+    content: " * ";
+}
+
