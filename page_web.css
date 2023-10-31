@@ -48,4 +48,8 @@ li:hover{
     border: 1px solid #EF233C;
     content: " * ";
 }
+label.required:after{
+    content: "*";
+    color: red;
+}
 
